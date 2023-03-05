@@ -17,7 +17,7 @@ public class MonsterFollow : MonoBehaviour
     private GameObject lookBackBubble;
     //~~~~~~~~~~~~~~~~~~~~~~~~Things you can edit~~~~~~~~~~~~~~~~~~~~~~~~
     //How high the monster rises from the water
-    private float riseHeight = 2f;
+    private float riseHeight =  2f;
     //How fast the monster rises from the water
     private float riseSpeed = 1.2f;
     //How large the monsters sight bubble should be, used for when turning around to check if the monster is there
