@@ -5,14 +5,14 @@ using UnityEngine.SceneManagement;
 
 public class Win : MonoBehaviour
 {
- private void OnCollisionEnter(Collision col)
- {
-    if(col.gameObject.name == "Boat")
+    void OnCollisionEnter(Collision collision)
     {
-        SceneManager.LoadScene(5);
-        Debug.Log("Win");
+        if(collision.gameObject.tag == "End")
+        {
+            SceneManager.LoadScene("WinScreen");
+            Debug.Log("Win");
+        }
     }
- }
 }
  
 

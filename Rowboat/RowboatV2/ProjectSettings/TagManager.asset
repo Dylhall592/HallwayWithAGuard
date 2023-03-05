@@ -8,11 +8,15 @@ TagManager:
   - Monster
   - MonsterSightRange
   - VisionObstruction
+  - Start
+  - Stake
+  - Path
+  - Water
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - Start
   - Water
   - UI
   - Player
