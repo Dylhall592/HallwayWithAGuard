@@ -24,6 +24,10 @@ public class MouseLookUpd : MonoBehaviour
 
     void Update()
     {
+        if(!PauseMenu.isPaused)
+        {
+
+        }
         if (hide == false & row == false)
         {
             //rotationY affects limited cam movement on X axis
